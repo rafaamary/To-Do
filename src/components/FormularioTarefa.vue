@@ -52,4 +52,10 @@ export default defineComponent({
   color: var(--texto-primario);
   background-color: var(--bg-primario);
 }
+
+@media only screen and (max-width: 768px) {
+    .column {
+      text-align: center;
+    }
+}
 </style>
