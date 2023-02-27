@@ -1,5 +1,5 @@
 <template>
-  <div class="box formulario">
+  <div class="box formulario is-flex is-align-items-center">
     <div class="columns">
       <div
         class="column is-8"
