@@ -4,7 +4,9 @@
       <BarraLateral> </BarraLateral>
     </div>
     <div class="column is-three-quarter">
-      <FormularioTarefa @aoSalvartarefa="salvarTarefa"> </FormularioTarefa>
+      <div class="form-container">
+        <FormularioTarefa @aoSalvartarefa="salvarTarefa"> </FormularioTarefa>
+      </div>
       <!-- Lista de Tarefas -->
       <div class="listaTarefas" v-for="(tarefa, index) in tarefas" :key="index">
         <TarefaLista  :tarefa="tarefa" @aoRemover="aoRemoverTarefa(index)"></TarefaLista>
@@ -46,5 +48,12 @@ export default defineComponent({
 <style>
 .listaTarefas {
   padding: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .form-container {
+      display:flex;
+      justify-content: center;
+    }
 }
 </style>

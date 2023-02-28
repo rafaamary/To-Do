@@ -1,5 +1,5 @@
 <template>
-    <button class="button"  style="width:3rem;height:3rem" @click="marcarComCheck">
+    <button class="button" style="width:3rem;height:3rem" @click="marcarComCheck">
       <span v-if="check" class="icon">
         <i class="fa-solid fa-check"></i>
       </span>
@@ -27,5 +27,3 @@ export default defineComponent({
     }
 });
 </script>
-
-
