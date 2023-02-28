@@ -1,6 +1,6 @@
 <template>
   <div class="box formulario is-flex is-align-items-center">
-    <div class="columns">
+    <div class="columns is-flex">
       <div
         class="column is-8"
         role="form"
@@ -54,7 +54,7 @@ export default defineComponent({
 }
 
 @media only screen and (max-width: 768px) {
-    .column {
+    .columns {
       text-align: center;
     }
 }
