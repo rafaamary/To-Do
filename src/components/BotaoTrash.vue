@@ -1,5 +1,5 @@
 <template>
-    <button class="button" style="width:3rem;height:3rem" @click="removerTarefa">
+    <button class="button"  style="width:3rem;height:3rem" @click="removerTarefa">
         <i class="fa-sharp fa-solid fa-trash"></i>
     </button>
 </template>
